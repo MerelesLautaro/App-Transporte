@@ -17,7 +17,7 @@
         app:layout_constraintHeight_percent="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/susa_logo_a21fbd12" />
+        app:srcCompat="@drawable/susalogo" />
 
     <TextView
         android:id="@+id/textUser"
@@ -49,8 +49,10 @@
 
     <EditText
         android:id="@+id/textViewUser"
-        android:layout_width="379dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
         android:background="@drawable/rounded_edittext"
         android:hint="Ingresá tu usuario"
         android:padding="16dp"
@@ -62,8 +64,10 @@
 
     <EditText
         android:id="@+id/textViewPassword"
-        android:layout_width="379dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
         android:background="@drawable/rounded_edittext"
         android:hint="Ingresá tu contraseña"
         android:inputType="textPassword"
@@ -92,9 +96,9 @@
         android:id="@+id/buttonIngresar"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="64dp"
         android:background="@drawable/button_border"
         android:backgroundTint="@android:color/transparent"
         android:enabled="true"
